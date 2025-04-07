@@ -63,7 +63,7 @@ Use --use_wandb if you have Weights & Biases installed (optional).
 Future updates will include perplexity calculations on validation sets to better gauge performance.
 
 
-2. **Generate**
+2. **Generate Exemple**
 
 ```bash
 python src/generate.py \
@@ -76,9 +76,9 @@ python src/generate.py \
 Note: Make sure your --model_checkpoint matches the model saved during training.
 Current Progress
 
-Baseline: Basic Transformer with standard learned positional embeddings
-Ongoing: Integrating RoPE for better handling of positional information
-Experiments: Testing different initializations, optimizers (AdamW, Adafactor), etc.
+- Baseline: Basic Transformer with standard learned positional embeddings
+- Ongoing: Integrating RoPE for better handling of positional information
+- Experiments: Testing different initializations, optimizers (AdamW, Adafactor), etc.
 
 
 ## Next steps
